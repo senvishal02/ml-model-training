@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "ml-training-repo"
-    AWS_ACCOUNT_ID: "123456789012"
-    AWS_DEFAULT_REGION: "us-east-1"
+    IMAGE_REPO_NAME: "ml-training-repo"          # default, can be overridden
+    AWS_ACCOUNT_ID: "123456789012"               # default, can be overridden
+    AWS_DEFAULT_REGION: "us-east-1"              # default, can be overridden
 phases:
   pre_build:
     commands:
